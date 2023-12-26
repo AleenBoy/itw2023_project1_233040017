@@ -286,6 +286,11 @@ body {
     background-color: #FF9C07;
     border-radius: 5px;
     padding: 0.5rem 10%;
+    color: white;
+}
+
+.contact-item-detail p{
+    color: var(--secondary);
 }
 
 /* Sosmed */
