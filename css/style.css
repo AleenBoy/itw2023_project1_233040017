@@ -24,7 +24,7 @@ body {
     background-color: var(--background);
     color: white;
     min-height: 3000px;
-    background-size: cover;
+    
     overflow-x: hidden;
 
 }
@@ -308,10 +308,9 @@ body {
 .footer-icons {
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffffff;
-    border-radius: 5px;
+    align-items: center;
     padding: 1.0rem 10%;
-
+    background-color: rgb(221, 220, 220);
 }
 
 
@@ -374,10 +373,4 @@ body {
     html {
         font-size: 45%;
     }
-
-    .container {
-        width: 220%;
-        background-position: -500px 0 ;
-    }
-
 }
